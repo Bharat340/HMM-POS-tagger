@@ -1,10 +1,10 @@
 # HMM-POS-tagger
 
-#Overview
+# Overview
 
 A Hidden Markov Model part-of-speech tagger for English, Chinese, and a surprise language. The training data are provided tokenized and tagged; the test data will be provided tokenized, and your tagger will add the tags. The assignment will be graded based on the performance of your tagger, that is how well it performs on unseen test data compared to the performance of a reference tagger.
 
-#Programs
+# Programs
 
 Two programs: hmmlearn.py will learn a hidden Markov model from the training data, and hmmdecode.py will use the model to tag new data. If using Python 3, you will name your programs hmmlearn3.py and hmmdecode3.py. The learning program will be invoked in the following way:
 
